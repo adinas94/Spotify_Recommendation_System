@@ -19,7 +19,7 @@ The merged dataframe contained around 10,000 and exactly 26 columns containing i
 
 The popularity and ratings distributions were looked at, and they seem to follow a similar overall distribution.
 
-(photo)
+<img src="https://github.com/adinas94/Spotify_Recommendation_System/blob/main/Images/popularity distribution.png" alt="alt text" width="600" height="400">
 
 Also, the frequency of genres in the playlist was looked at - the most popular genres were dance, pop, and rock.
 
