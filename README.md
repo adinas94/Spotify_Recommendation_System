@@ -15,7 +15,7 @@ A playlist of approximately 10,000 songs was extracted from the Spotify API usin
 Firstly, I created a set of dummy variables that specified which decade the song was played in; it could be that newer songs have higher ratings than older songs due to their increased popularity. I then built a ‘ratings’ variable that compressed the original “popularity” measure into a 1-5 scale in order to more easily differentiate ratings from one another. Lastly, since the dataset contained around 500 genres, I put this data into “buckets” that contained mainstream genre categories (pop, dance, etc.) and then each unique genre was transformed into a dummy variable. 
 
 ### Exploratory Data Analysis
-The merged dataframe contained around 10,000 and exactly 26 columns containing information on audio features, artist information, track information, dummy decade variables, and dummy genre variables. 
+The merged dataframe contained around 10,000 and exactly 26 columns of information on audio features, artist information, track information, dummy decade variables, and dummy genre variables. 
 
 The popularity and ratings distributions were looked at, and they seem to follow a similar overall distribution.
 
