@@ -39,7 +39,7 @@ For this analysis, the goal is to optimize test precision. This is because we do
 #### XGBoost
 XGBoost was tuned using GridSearch to find the optimal hyperparameters. When the hyperparameters were included, the results only improved slightly compared to the vanilla model.
 
-<img src="https://github.com/adinas94/Spotify_Recommendation_System/blob/main/Images/XGBoost result.png" alt="alt text" width="1000" height="100">
+<img src="https://github.com/adinas94/Spotify_Recommendation_System/blob/main/Images/XGBoost result.png" alt="alt text" width="900" height="90">
 
 Next, I used the XGBoost predict_proba method to get predicted probabilities for ratings. By utilizing the probability of obtaining certain ratings, it allows the actual ratings to take on non-integer values. This will likely reduce the errors that are found between the actual ratings and the future predicted ratings, as the numbers are not restricted to strict integer values. These probabilistic ratings were then used in the recommendation system. 
 
@@ -47,7 +47,7 @@ Next, I used the XGBoost predict_proba method to get predicted probabilities for
 
 The SVM model produced stronger results, with an improvement in RMSE, once the best hyperparameters from GridSearch were included.
 
-<img src="https://github.com/adinas94/Spotify_Recommendation_System/blob/main/Images/SVM model result.png" alt="alt text" width="900" height="80">
+<img src="https://github.com/adinas94/Spotify_Recommendation_System/blob/main/Images/SVM model result.png" alt="alt text" width="600" height="60">
 
 ### Recommendation System 
 
@@ -57,7 +57,7 @@ For the integer ratings, models for KNNBasic, KNNBaseline, KNNWithMeans and SVD 
 
 Then, SVD model was run with the probabilistic ratings from the XGBoost model. The scores improved significantly when these ratings were used.
 
-<img src="https://github.com/adinas94/Spotify_Recommendation_System/blob/main/Images/SVD prob tuned RMSE.png" alt="alt text" width="180" height="50">
+<img src="https://github.com/adinas94/Spotify_Recommendation_System/blob/main/Images/SVD prob tuned RMSE.png" alt="alt text" width="160" height="40">
 
 The estimated ratings, based on these probabilistic ratings, were then generated through the SVD model. Below is a glimpse of 5 examples of these estimated ratings.
 
@@ -65,7 +65,7 @@ The estimated ratings, based on these probabilistic ratings, were then generated
 
 Here is a sample of song recommendations that were created through the model, based off of a user's existing ratings:
 
-<img src="https://github.com/adinas94/Spotify_Recommendation_System/blob/main/Images/recommended songs.png" alt="alt text" width="600" height="150">
+<img src="https://github.com/adinas94/Spotify_Recommendation_System/blob/main/Images/recommended songs.png" alt="alt text" width="800" height="200">
 
 ### Post-Model EDA & Conclusions 
 
