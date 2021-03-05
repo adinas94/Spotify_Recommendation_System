@@ -1,4 +1,4 @@
-# Spotify_Recommendation_System
+# Spotify Recommendation System
 #### By: Adina Steinman 
 ### Objective: Using the Spotify API to build a Music Recommendation System 
 ### Business Problem
