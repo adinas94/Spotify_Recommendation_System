@@ -2,7 +2,7 @@
 #### By: Adina Steinman 
 ### Objective: Using the Spotify API to build a Music Recommendation System 
 ### Business Problem
-The aim of this project is to build a recommendation system for a new music streaming platform. First, a classification model was built, in order to address the cold start problem and have a mechanism to generate ratings for new users. Next, an SVD-based model was created to provide recommended songs to users based on their existing preferences and ratinsg towards songs. This will allow the platform to build playlists that are tailored to an individual's tastes and hopefully win new customers will this personalized song-recommendation approach.
+The aim of this project is to build a recommendation system for a new music streaming platform. First, a classification model was built, in order to address the cold start problem and have a mechanism to generate ratings for new users. Next, an SVD-based model was created to provide recommended songs to users based on their existing preferences and ratings of songs. This will allow the platform to build playlists that are tailored to an individual's tastes and hopefully win new customers with this personalized song-recommendation approach.
 
 ### Data Collection
 A playlist of approximately 10,000 songs was extracted from the Spotify API using the Spotipy wrapper. Dfiferent endpoints were used to collect different information that was available, including:
