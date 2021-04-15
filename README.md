@@ -1,6 +1,9 @@
 # Spotify Recommendation System
 #### By: Adina Steinman 
 ### Objective: Using the Spotify API to build a Music Recommendation System 
+
+<img src="https://github.com/adinas94/Spotify_Recommendation_System/blob/main/Images/spotifypic.jpg" alt="alt text" width="400" height="300">
+
 ### Business Problem
 The aim of this project is to build a recommendation system for a new music streaming platform. First, a classification model was built, in order to address the cold start problem and have a mechanism to generate ratings for new users. Next, an SVD-based model was created to provide recommended songs to users based on their existing preferences and ratings of songs. This will allow the platform to build playlists that are tailored to an individual's tastes and hopefully win new customers with this personalized song-recommendation approach.
 
